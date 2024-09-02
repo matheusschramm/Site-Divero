@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+body{
+    height: 900vh;
+}
+
+nav.menu-lateral{
+    width: 70px;
+    height: 100vh;
+    background-color: rgb(41, 41, 41);
+    padding: 40px 0px 40px 1%;
+    box-shadow: 4px 0px 0px #2D4E63;
+    position: fixed;
+    overflow: hidden;
+    transition: .2s;
+}
+
+
+nav.menu-lateral.expand{
+    width: 250px;
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    gap: 20px;
+    transition: .5s;
+
+}       
+
+.btn-expandir > i{
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.logo-divero{
+    height: 20px;
+    width: auto;
+    cursor: pointer;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.logo-hidden{
+    display: none;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: .2s;
+    border-radius: 5px 0 0 5px;
+    padding-left: 8px;
+}
+
+ul li.ativo{
+    background-color: #2D4E63;
+}
+
+ul li.item-menu:hover{
+    background-color: #2D4E63;
+}
+
+ul li.item-menu a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;  
+  padding: 20px 4%;
+  display: flex;
+  margin-bottom: 20px;
+  line-height: 40px; 
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 70px;
+    transition: .35s;
+    opacity: 0;
+}
+
+nav.menu-lateral.expand .txt-link{
+    margin-left: 40px;
+    opacity: 1;
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* CONTEÚDO */
+
+.div-home{
+    margin-left: 73px;
+    transition: .4s ease;
+
+}
+
+nav.menu-lateral.expand ~ .div-home{
+    margin-left: 253px;
+}
+
+.div-home .container{
+    height: 100%;
+    display: block;
+    justify-content: center;
+}
+
+.div-home .container .titulo{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 100px;
+}
+
+.div-home .container .video{
+    margin-left: 80vh;
+}
