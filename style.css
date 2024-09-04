@@ -8,6 +8,7 @@
 }
 body{
     height: 900vh;
+    background-color: rgb(41, 41, 41);
 }
 
 nav.menu-lateral{
@@ -99,7 +100,7 @@ ul li.item-menu a .icon > i{
     text-decoration: none;
 }
 
-/* CONTEÚDO */
+/* CONTEÚDO div-home */
 
 .div-home{
     margin-left: 73px;

@@ -11,7 +11,8 @@ menuItem.forEach((item) =>
     item.addEventListener('click', selectLink)
 );
 
-// expandindo pelo botao de expandie
+// expandindo pelo botao de expandir
+
 var btnExp = document.querySelector('#btnExp');
 var ladoMenu = document.querySelector('.menu-lateral');
 var logo = document.querySelector('.logo-hidden');
