@@ -89,12 +89,24 @@ ul li.item-menu a .txt-link{
     opacity: 0;
 }
 
+ul li div.subtipo{
+    color: #ffffff;
+    background-color: #3c6d8b;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 0px 10px 90px;
+    width: 130px;
+    border-radius: 5px;
+}
+
 ul li div.subtipo div.tipo a{
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     font-size: 15px;  
-    padding-top: 2%;
+    padding: 2%;
     display: flex;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    display: none;
 }
 
 nav.menu-lateral.expand .txt-link{
