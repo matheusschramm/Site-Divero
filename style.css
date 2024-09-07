@@ -19,9 +19,22 @@ nav.menu-lateral{
     box-shadow: 4px 0px 0px #2D4E63;
     position: fixed;
     overflow: hidden;
+    overflow-y: auto;
     transition: .2s;
 }
 
+/* BARRA DE ROLAGEM */
+
+.menu-lateral::-webkit-scrollbar{
+    width: 10px;
+    background-color: transparent;
+    display: none;
+}
+
+.menu-lateral::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 255, 255, 0.158);
+    border-radius: 5px;
+}
 
 nav.menu-lateral.expand{
     width: 250px;
@@ -89,7 +102,7 @@ ul li.item-menu a .txt-link{
     opacity: 0;
 }
 
-ul li div.subtipo{
+ul li div.grupo{
     color: #ffffff;
     background-color: #3c6d8b;
     padding: 10px 10px 10px 10px;
@@ -98,15 +111,30 @@ ul li div.subtipo{
     border-radius: 5px;
 }
 
-ul li div.subtipo div.tipo a{
+ul li div.grupo a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li div.grupo div.subgrupo{
+    display: block;
+}
+
+ul li div.grupo div.subgrupo a{
     color: #ffffff;
     text-decoration: none;
     font-size: 15px;  
     padding: 2%;
     display: flex;
-    margin-bottom: 5px;
+    margin-top: 5px;
     margin-left: 15px;
-    display: none;
+    display: block;
+}
+
+ul li div.grupo div.subgrupo div.tipo{
+    margin-left: 20px;
+    background-color: #2D4E63;
+    border-radius: 5px;
 }
 
 nav.menu-lateral.expand .txt-link{
