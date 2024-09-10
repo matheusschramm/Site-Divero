@@ -26,9 +26,9 @@ btnExp.addEventListener('click', function(){
 
 // fazendo aparecer os links de cada modelagem
 
-grupo = document.querySelectorAll('.grupo');
-subgrupo = document.querySelectorAll('.grupo .subgrupo');
-tipo = document.querySelectorAll('.tipo');
+const grupo = document.querySelectorAll('.grupo');
+const subgrupo = document.querySelectorAll('.subgrupo');
+const tipo = document.querySelectorAll('.tipo');
 
 function abreFechaGruposMenu(){
     grupo.forEach(item => 
@@ -48,13 +48,12 @@ function abreFechaSubgruposMenu(){
     );
 }
 
-
-
 menuItem.forEach((item) =>
-    item.addEventListener('click', abreFechaGruposMenu)
+    item.addEventListener('click', abreFechaGruposMenu, {passive: true})
 );
 
 grupo.forEach((item) =>
-    item.addEventListener('click', abreFechaSubgruposMenu)
+    item.addEventListener('click', abreFechaSubgruposMenu, {passive: true})
 );
 
+// element.addEventListener('touchstart', handlerFunction, { passive: true });
