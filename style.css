@@ -109,7 +109,14 @@ ul li div.grupo{
     margin: 5px 0px 10px 80px;
     width: 150px;
     border-radius: 5px;
+}
+
+.grupo, .subgrupo, .tipo{
     display: none;
+}
+
+.grupo.expandido, .subgrupo.expandido, .tipo.expandido{
+    display: block;
 }
 
 ul li div.grupo a{
@@ -118,9 +125,9 @@ ul li div.grupo a{
     margin-top: 5px;
 }
 
-ul li div.grupo div.subgrupo{
-    display: none;
-}
+/* ul li div.grupo div.subgrupo{
+    justify-content: center;
+} */
 
 ul li div.grupo div.subgrupo a{
     color: #ffffff;
@@ -129,7 +136,8 @@ ul li div.grupo div.subgrupo a{
     padding: 2%;
     margin-top: 5px;
     margin-left: 15px;
-    display: none;
+    text-align: left;
+    display: block;
 }
 
 ul li .tipo{
@@ -137,7 +145,6 @@ ul li .tipo{
     background-color: #2D4E63;
     border-radius: 5px;
     text-decoration: none;
-    display: none;
 }
 
 ul li div.grupo div.subgrupo div.tipo{
