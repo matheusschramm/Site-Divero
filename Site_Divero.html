@@ -5,188 +5,323 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="conteudo.css">
     <script src="expadir-itens_menu.js" defer></script>
     <script src="menu.js" defer></script>
     <title>Divero</title>
 </head>
 <body>
-  <nav class="menu-lateral expand">
-      <div class="btn-expandir" id="btnExp">
-          <i class="bi bi-list"></i> 
-          <img src="LogoDivero.png" class="logo-hidden">
-    </div> 
+    <nav class="menu-lateral">
+        <div class="btn-expandir" id="btnExp">
+            <i class="bi bi-list"></i> 
+            <img src="LogoDivero.png" class="logo-hidden">
+        </div> 
 
-    <ul>
-        <li class="item-menu ativo">
-            <a href="#" class="a">
-                <span class="icon"><i class="bi bi-house-door"></i></span>
-                <span class="txt-link">Home</span>
-            </a>
-        </li>
-        <li class="item-menu" id="modelagens">
-            <a href="#" class="a">
-                <span class="icon"><i class="bi bi-puzzle"></i></span>
-                <span class="txt-link">Modelagens</span>
-            </a>
-            <div class="grupo"> 
-                <a href="#">Feminino</a>
-                <div class="subgrupo">
-                    <a href="#">Calças</a>
-                    <div class="tipo">
-                        <a href="reta-slim">Skinny</a>
-                        <a href="reta-slim">Cigarrete</a>
-                        <a href="reta-slim">Cropped</a>
-                        <a href="reta-slim">Flare</a>
-                        <a href="reta-slim">Flare Baixa Estatura</a>
-                        <a href="reta-slim">Bootcut</a>
-                        <a href="reta-slim">Slouchy</a>
-                        <a href="reta-slim">Reta</a>
-                        <a href="reta-slim">Wide Leg</a>
-                        <a href="reta-slim">Jogger</a>
-                        <a href="reta-slim">Mom</a>
+        <ul>
+            <li class="item-menu ativo">
+                <a href="#home" class="a">
+                    <span class="icon"><i class="bi bi-house-door"></i></span>
+                    <span class="txt-link">Home</span>
+                </a>
+            </li>
+            <li class="item-menu" >
+                <a href="#modelagens" class="a">
+                    <span class="icon"><i class="bi bi-puzzle"></i></span>
+                    <span class="txt-link">Modelagens</span>
+                </a>
+                <div class="grupo"> 
+                    <a href="#modelagens">Feminino</a>
+                    <div class="subgrupo">
+                        <a href="#modelagens">Calças</a>
+                        <div class="tipo">
+                            <a href="#modelagens">Skinny</a>
+                            <a href="#cigarrete">Cigarrete</a>
+                            <a href="#cropped">Cropped</a>
+                            <a href="#flare">Flare</a>
+                            <a href="#flare-baixa-estatura">Flare Baixa Estatura</a>
+                            <a href="#bootcut">Bootcut</a>
+                            <a href="#slouchy">Slouchy</a>
+                            <a href="#reta">Reta</a>
+                            <a href="#wide-leg">Wide Leg</a>
+                            <a href="#jogger">Jogger</a>
+                            <a href="#mom">Mom</a>
+                        </div>
                     </div>
-                </div>
-                <div class="subgrupo">
-                    <a href="">Parte Superior</a>
-                    <div class="tipo">
-                        <a href="reta-slim">Cropped</a>
-                        <a href="reta-slim">Tradicional</a>
-                        <a href="reta-slim">Forrada</a>
-                        <a href="reta-slim">Parka Tradicional</a>
-                        <a href="reta-slim">Parka Forrada</a>
-                        <a href="reta-slim">Colete</a>
-                        <a href="reta-slim">Blazer</a>
-                        <a href="reta-slim">Casaco</a>
+                    <div class="subgrupo">
+                        <a href="#parte-superior">Parte Superior</a>
+                        <div class="tipo">
+                            <a href="#parte-superior">Cropped</a>
+                            <a href="#tradicional">Tradicional</a>
+                            <a href="#forrada">Forrada</a>
+                            <a href="#parka-tradicional">Parka Tradicional</a>
+                            <a href="#parka-forrada">Parka Forrada</a>
+                            <a href="#colete">Colete</a>
+                            <a href="#blazer">Blazer</a>
+                            <a href="#casaco">Casaco</a>
+                        </div>
                     </div>
-                </div>
-                <div class="subgrupo">
-                    <a href="">Saia</a>
-                    <div class="tipo">
-                        <a href="reta-slim">Mini</a>
-                        <a href="reta-slim">Midi</a>
+                    <div class="subgrupo">
+                        <a href="#saia">Saia</a>
+                        <div class="tipo">
+                            <a href="#mini">Mini</a>
+                            <a href="#midi">Midi</a>
+                        </div>
                     </div>
-                </div>
-                <div class="subgrupo">
-                    <a href="">Bermuda e Shorts</a>
-                    <div class="tipo">
-                        <a href="reta-slim">Soltinho</a>
-                        <a href="reta-slim">Mom</a>
-                        <a href="reta-slim">Alfaiataria</a>
-                        <a href="reta-slim">Slouchy</a>
+                    <div class="subgrupo">
+                        <a href="#bermuda-shorts">Bermuda e Shorts</a>
+                        <div class="tipo">
+                            <a href="#soltinho">Soltinho</a>
+                            <a href="#mom">Mom</a>
+                            <a href="#alfaiataria">Alfaiataria</a>
+                            <a href="#slouchy">Slouchy</a>
+                        </div>
                     </div>
-                </div>
-            </div> 
-            <div class="grupo"> 
-                <a href="#" class="subg-key">Masculino</a>
-                <div class="subgrupo">
-                    <a href="">Calças</a>
-                    <div class="tipo">
-                        <a href="reta-slim">Skinny</a>
-                        <a href="reta-slim">Super Skinny</a>
-                        <a href="reta-slim">Slim</a>
-                        <a href="reta-slim">Reta</a>
-                        <a href="reta-slim">Jogger</a>
-                        <a href="reta-slim">Cargo</a>
+                </div> 
+                <div class="grupo"> 
+                    <a href="#modelagens-masculino">Masculino</a>
+                    <div class="subgrupo">
+                        <a href="#calças-masculino">Calças</a>
+                        <div class="tipo">
+                            <a href="#skinny-masculino">Skinny</a>
+                            <a href="#super_skinny-masculino">Super Skinny</a>
+                            <a href="#slim-masculino">Slim</a>
+                            <a href="#reta-masculino">Reta</a>
+                            <a href="#jogger-masculino">Jogger</a>
+                            <a href="#cargo-masculino">Cargo</a>
+                        </div>
                     </div>
-                </div>
-                <div class="subgrupo">
-                    <a href="">Parte Superior</a>
-                    <div class="tipo">
-                        <a href="reta-slim">Jaqueta Tradicional</a>
-                        <a href="reta-slim">Jaqueta Bomber</a>
-                        <a href="reta-slim">Jaqueta Forrada</a>
-                        <a href="reta-slim">Camisa</a>
-                        <a href="reta-slim">Blazer</a>
+                    <div class="subgrupo">
+                        <a href="#parte-superior-masculino">Parte Superior</a>
+                        <div class="tipo">
+                            <a href="#jaqueta-tradicional-masculino">Jaqueta Tradicional</a>
+                            <a href="#jaqueta-bomber-masculino">Jaqueta Bomber</a>
+                            <a href="#jaqueta-forrada-masculino">Jaqueta Forrada</a>
+                            <a href="#camisa-masculino">Camisa</a>
+                            <a href="#blazer-masculino">Blazer</a>
+                        </div>
                     </div>
-                </div>
-                <div class="subgrupo">
-                    <a href="">Bermudas</a>
-                    <div class="tipo">
-                        <a href="reta-slim">Tradicional/ Five pocket</a>
-                        <a href="reta-slim">Alfaiataria</a>
+                    <div class="subgrupo">
+                        <a href="#bermudas-masculino">Bermudas</a>
+                        <div class="tipo">
+                            <a href="#tradicional-five-pocket-masculino">Tradicional/ Five pocket</a>
+                            <a href="#alfaiataria-masculino">Alfaiataria</a>
+                        </div>
                     </div>
-                </div>
-                <div class="subgrupo">
-                    <a href="">Bermuda e Shorts</a>
-                    <div class="tipo">
-                        <a href="reta-slim">Soltinho</a>
-                        <a href="reta-slim">Mom</a>
-                        <a href="reta-slim">Alfaiataria</a>
-                        <a href="reta-slim">Slouchy</a>
+                </div> 
+                <div class="grupo"> 
+                    <a href="#plus_size">Plus Size</a>
+                    <div class="subgrupo">
+                        <a href="#calcas-plus_size">Calças</a>
+                        <div class="tipo">
+                            <a href="#cigarrete-plus_size">Cigarrete</a>
+                            <a href="#skinny-plus_size">Skinny</a>
+                        </div>
                     </div>
-                </div>
-            </div> 
-            <div class="grupo"> 
-                <a href="#" class="subg-key">Plus Size</a>
-                <div class="subgrupo">
-                    <a href="">Calças</a>
-                    <div class="tipo">
-                        <a href="reta-slim">Cigarrete</a>
-                        <a href="reta-slim">Skinny</a>
+                    <div class="subgrupo">
+                        <a href="#parte-superior-plus_size">Parte Superior</a>
+                        <div class="tipo">
+                            <a href="#">Jaqueta Tradicional</a>
+                            <a href="#">Jaqueta Bomber</a>
+                        </div>
                     </div>
-                </div>
-                <div class="subgrupo">
-                    <a href="">Parte Superior</a>
-                    <div class="tipo">
-                        <a href="reta-slim">Jaqueta Tradicional</a>
-                        <a href="reta-slim">Jaqueta Bomber</a>
+                    <div class="subgrupo">
+                        <a href="#bermuda-plus_size">Bermuda</a>
+                        <div class="tipo">
+                            <a href="#alfaiataria-plus_size">Alfaiataria</a>
+                        </div>
                     </div>
-                </div>
-                <div class="subgrupo">
-                    <a href="">Bermuda</a>
-                    <div class="tipo">
-                        <a href="reta-slim">Alfaiataria</a>
+                    <div class="subgrupo">
+                        <a href="#bermuda-shorts-plus_size">Bermuda e Shorts</a>
+                        <div class="tipo">
+                            <a href="#soltinho-plus_size">Soltinho</a>
+                            <a href="#mom-plus_size">Mom</a>
+                            <a href="#alfaiataria-plus_size">Alfaiataria</a>
+                            <a href="#slouchy-plus_size">Slouchy</a>
+                        </div>
                     </div>
+                </div> 
+            </li>
+            <li class="item-menu">
+                <a href="#tecnologias" class="a">
+                    <span class="icon"><i class="bi bi-clipboard2-check"></i></i></span>
+                    <span class="txt-link">Tecnologias</span>
+                </a>  
+                <div class="grupo">
+                    <a href="#power-360">Power 360°</a>
+                    <a href="#extremo-toque">Extremo Toque </a>
+                    <a href="#eu-nao-laceio">Eu não Laceio</a>
+                    <a href="#eu-nao-desboto">Eu não Desboto</a>
+                    <a href="#gentilezza">Gentilezza</a>
+                    <a href="#push-up">Push Up</a>
+                    <a href="#shape-fit">Shape Fit</a>
+                    <a href="#sarja-jeans-malha">Sarja/Jeans Malha</a>
+                    <a href="#controle-termico">Controle Térmico</a>
+                    <a href="#extremo-power">Extremo Power</a>
+                    <a href="#eco">Eco</a>                
                 </div>
-                <div class="subgrupo">
-                    <a href="">Bermuda e Shorts</a>
-                    <div class="tipo">
-                        <a href="reta-slim">Soltinho</a>
-                        <a href="reta-slim">Mom</a>
-                        <a href="reta-slim">Alfaiataria</a>
-                        <a href="reta-slim">Slouchy</a>
-                    </div>
+            </li>
+            <li class="item-menu">
+                <a href="#familias" class="a">
+                    <span class="icon"><i class="bi bi-ui-radios-grid"></i></span>
+                    <span class="txt-link">Famílias</span>
+                </a>  
+                <div class="grupo">
+                        <a href="#gentilezza">Gentilezza</a>
+                        <a href="#PU">PU</a>
+                        <a href="#tweed">Tweed</a>
+                        <a href="#alfaiataria">Alfaiataria</a>
+                        <a href="#linho">Linho</a>
+                        <a href="#all Denim">All Denim</a>
+                        <a href="#all Black">All Black</a>
+                        <a href="#cotele">Cotelê</a>
                 </div>
-            </div> 
-        </li>
-        <li class="item-menu">
-            <a href="#" class="a">
-                <span class="icon"><i class="bi bi-clipboard2-check"></i></i></span>
-                <span class="txt-link">Tecnologias</span>
-            </a>  
-            <div class="grupo">
-                <a href="">Power 360°</a>
-                <a href="">Extremo Toque </a>
-                <a href="">Eu não Laceio</a>
-                <a href="">Eu não Desboto</a>
-                <a href="">Gentilezza</a>
-                <a href="">Push Up</a>
-                <a href="">Shape Fit</a>
-                <a href="">Sarja/Jeans Malha</a>
-                <a href="">Controle Térmico</a>
-                <a href="">Extremo Power</a>
-                <a href="">Eco</a>                
+            </li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="content">
+            <h1 class="titulo">Coleção inverno 25</h1>
+            <div class="container-home">
+                <div class="video">
+                    <iframe class="video-home" src="https://www.youtube.com/embed/D_lmNBWHq7k?si=MYGqBJyWa7K5OeMF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+                </div>
+                <div class="introducao">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate adipisci repellat autem ad quo error perferendis inventore qui. Quos rerum quia velit culpa commodi vel sit nesciunt obcaecati, magni in.
+                </div>
             </div>
-        </li>
-        <li class="item-menu">
-            <a href="#" class="a">
-                <span class="icon"><i class="bi bi-ui-radios-grid"></i></span>
-                <span class="txt-link">Famílias</span>
-            </a>  
-            <div class="grupo">
-                    <a href="#">Gentilezza</a>
-                    <a href="#">PU</a>
-                    <a href="#">Tweed</a>
-                    <a href="#">Alfaiataria</a>
-                    <a href="#">Linho</a>
-                    <a href="#">All Denim</a>
-                    <a href="#">All Black</a>
-                    <a href="#">Cotelê</a>
+        </div>
+    </section>
+    <section id="modelagens">
+        <div class="content">
+            <div class="container">
+                <h1 class="titulo">Modelagens / Feminino</h1>
+                <h1 class="subtitulo">Calças - Skinny</h1>
+                <div class="video">
+                    <iframe class="video-conteudo" src="https://www.youtube.com/embed/D_lmNBWHq7k?si=MYGqBJyWa7K5OeMF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+                </div>
             </div>
-        </li>
-    </ul>
-  </nav>
-    </div>
-  </div>
+        </div>
+    </section>
+    <section id="cigarrete">
+        <div class="content">
+            <div class="container">
+                <h1 class="subtitulo">Calças - Cigarrete</h1>
+                <div class="video">
+                    <iframe class="video-conteudo" src="https://www.youtube.com/embed/D_lmNBWHq7k?si=MYGqBJyWa7K5OeMF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cropped">
+        <div class="content">
+            <div class="container">
+                <h1 class="subtitulo">Calças - Cropped</h1>
+                <div class="video">
+                    <iframe class="video-conteudo" src="https://www.youtube.com/embed/D_lmNBWHq7k?si=MYGqBJyWa7K5OeMF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="flare">
+        <div class="content">
+            <div class="container">
+                <h1 class="subtitulo">Calças - Flare</h1>
+                <div class="video">
+                    <iframe class="video-conteudo" src="https://www.youtube.com/embed/D_lmNBWHq7k?si=MYGqBJyWa7K5OeMF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="flare-baixa-estatura">
+        <div class="content">
+            <div class="container">
+                <h1 class="subtitulo">Calças - Flare Baixa Estatura</h1>
+                <div class="video">
+                    <iframe class="video-conteudo" src="https://www.youtube.com/embed/D_lmNBWHq7k?si=MYGqBJyWa7K5OeMF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="bootcut">
+        <div class="content">
+            <div class="container">
+                <h1 class="subtitulo">Calças - Bootcut</h1>
+                <div class="video">
+                    <iframe class="video-conteudo" src="https://www.youtube.com/embed/D_lmNBWHq7k?si=MYGqBJyWa7K5OeMF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="slouchy">
+        <div class="content">
+            <div class="container">
+                <h1 class="subtitulo">Calças - Slouchy</h1>
+                <div class="video">
+                    <iframe class="video-conteudo" src="https://www.youtube.com/embed/D_lmNBWHq7k?si=MYGqBJyWa7K5OeMF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reta">
+        <div class="content">
+            <div class="container">
+                <h1 class="subtitulo">Calças - Reta</h1>
+                <div class="video">
+                    <iframe class="video-conteudo" src="https://www.youtube.com/embed/D_lmNBWHq7k?si=MYGqBJyWa7K5OeMF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="wide-leg">
+        <div class="content">
+            <div class="container">
+                <h1 class="subtitulo">Calças - Wide Leg</h1>
+                <div class="video">
+                    <iframe class="video-conteudo" src="https://www.youtube.com/embed/D_lmNBWHq7k?si=MYGqBJyWa7K5OeMF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="jogger">
+        <div class="content">
+            <div class="container">
+                <h1 class="subtitulo">Calças - Jogger</h1>
+                <div class="video">
+                    <iframe class="video-conteudo" src="https://www.youtube.com/embed/D_lmNBWHq7k?si=MYGqBJyWa7K5OeMF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="mom">
+        <div class="content">
+            <div class="container">
+                <h1 class="subtitulo">Calças - Mom</h1>
+                <div class="video">
+                    <iframe class="video-conteudo" src="https://www.youtube.com/embed/D_lmNBWHq7k?si=MYGqBJyWa7K5OeMF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="parte-superior">
+        <div class="content">
+            <div class="container">
+                <h1 class="subtitulo">Parte Superior - Cropped</h1>
+                <div class="video">
+                    <iframe class="video-conteudo" src="https://www.youtube.com/embed/D_lmNBWHq7k?si=MYGqBJyWa7K5OeMF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="parte-superior">
+        <div class="content">
+            <div class="container">
+                <h1 class="subtitulo">Parte Superior - Cropped</h1>
+                <div class="video">
+                    <iframe class="video-conteudo" src="https://www.youtube.com/embed/D_lmNBWHq7k?si=MYGqBJyWa7K5OeMF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

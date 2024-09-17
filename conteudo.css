@@ -1,0 +1,101 @@
+@font-face {
+    font-family: cursiva;
+    src: url(ArtisoulSignature.ttf);
+}
+
+nav.menu-lateral.expand ~ section .content{
+    margin-left: 55px;
+}
+
+section{
+    margin-left: 73px;
+    transition: .4s ease;
+    background-color: red;
+    height: 100vh;
+}
+
+.content{
+    height: 100%;
+    display: flex;
+    margin-left: 145px;
+    max-width: 1000px;
+    background-color: aqua;
+    transition: .4s ease;
+    justify-content: center
+}
+
+nav.menu-lateral.expand ~ section{
+    margin-left: 263px;
+}
+
+section#home .content{
+    padding: 10px 0px 0px 0px;
+}
+
+.container{
+    background-color: blueviolet;
+}
+
+section#home .content .container{
+    display: block;
+}
+
+
+section .content .container-home{
+    background-color: brown;
+    display: block;
+    
+}
+
+section .container-home .introducao{
+    margin-top: 30px;
+    font-size: 20px;
+    max-width: 600px;
+    text-align: center;
+    background-color: blue;
+}
+
+section .content .container-home .video-home{
+    margin-top: 150px;
+    /* margin-left: 50px; */
+    border-radius: 6px;
+    width: 600px;
+    height: 335px;
+    transition: .4s ease-in-out;
+    box-shadow: 0px 3px 20px gray;
+}
+
+section .content .video-conteudo{
+    margin-top: 30px;
+    border-radius: 6px;
+    width: 600px;
+    height: 335px;
+    transition: .4s ease-in-out;
+    box-shadow: 0px 3px 20px gray;
+}
+
+.titulo{
+    font-family: cursiva;
+    font-size: 60px;
+    font-weight: 100;
+    position: relative;
+    background-color: rgb(255, 196, 0);
+    justify-content: center;
+    display: flex;
+}
+
+.subtitulo{
+    font-family: cursiva;
+    font-size: 50px;
+    font-weight: 200;
+    top: -30px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+#home .titulo{
+    font-size: 70px;
+    position: absolute;
+    font-weight: 100;
+}
