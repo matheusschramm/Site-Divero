@@ -3,6 +3,10 @@
     src: url(ArtisoulSignature.ttf);
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 nav.menu-lateral.expand ~ section .content{
     margin-left: 55px;
 }
@@ -98,4 +102,10 @@ section .content .video-conteudo{
     font-size: 70px;
     position: absolute;
     font-weight: 100;
+}
+
+section .content .container .video{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
