@@ -105,3 +105,26 @@ section .content .container .video{
     display: flex;
     justify-content: center;
 }
+
+.frase-mobile{
+    /* margin: ; */
+    display: flex;
+    justify-content: center;
+    color: black;
+    align-items: center;
+    /* width: 100%; */
+    height: 100vh;
+    background-image: linear-gradient(27deg,#ff2200,#3cff00,#006eff,violet  );
+    background-size: 500% 100%;
+    animation: degrade 6s infinite alternate;
+    padding: 20px;
+}
+
+@keyframes degrade{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 100%;
+    }
+}
