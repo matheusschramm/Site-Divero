@@ -99,3 +99,9 @@ section .content .video-conteudo{
     position: absolute;
     font-weight: 100;
 }
+
+section .content .container .video{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
