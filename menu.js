@@ -24,36 +24,13 @@ btnExp.addEventListener('click', function(){
     logo.classList.toggle('logo-hidden');
 })
 
-// fazendo aparecer os links de cada modelagem
+// testes
 
-// const grupo = document.querySelectorAll('.grupo');
-// const subgrupo = document.querySelectorAll('.subgrupo');
-// const tipo = document.querySelectorAll('.tipo');
+var menu = document.querySelector('nav.menu-lateral');
 
-// function abreFechaGruposMenu(){
-//     grupo.forEach(item => 
-//         item.style.display = 'none'
-//     );
-//     this.querySelectorAll('.grupo').forEach(item =>
-//         item.style.display = 'block'
-//     );
-// }
-
-// function abreFechaSubgruposMenu(){
-//     subgrupo.forEach(item => 
-//         item.style.display = 'none'
-//     );
-//     this.querySelectorAll('.subgrupo').forEach(item =>
-//         item.style.display = 'block'
-//     );
-// }
-
-// menuItem.forEach((item) =>
-//     item.addEventListener('click', abreFechaGruposMenu, {passive: true})
-// );
-
-// grupo.forEach((item) =>
-//     item.addEventListener('click', abreFechaSubgruposMenu, {passive: true})
-// );
-
-// element.addEventListener('touchstart', handlerFunction, { passive: true });
+menu.addEventListener('mouseover', function() {
+    console.log('Mouse entrou no menu!');
+    // ladoMenu.classList.toggle('expand');
+    // faz a logo aparecer e desaparecer quando colica para expandir o btnExp
+   
+});

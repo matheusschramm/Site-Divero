@@ -3,7 +3,7 @@
     src: url(ArtisoulSignature.ttf);
 }
 
-nav.menu-lateral.expand ~ section .content{
+nav.menu-lateral:hover ~ section .content{
     margin-left: 55px;
 }
 
@@ -24,7 +24,7 @@ section{
     justify-content: center
 }
 
-nav.menu-lateral.expand ~ section{
+nav.menu-lateral:hover ~ section{
     margin-left: 263px;
 }
 

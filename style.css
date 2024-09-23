@@ -40,7 +40,7 @@ nav.menu-lateral{
     border-radius: 5px;
 }
 
-nav.menu-lateral.expand{
+nav.menu-lateral:hover{
     width: 260px;
 }
 
@@ -65,10 +65,6 @@ nav.menu-lateral.expand{
     cursor: pointer;
     margin-left: 20px;
     position: absolute;
-}
-
-.logo-hidden{
-    display: none;
 }
 
 ul{
@@ -156,7 +152,7 @@ ul li div.grupo div.subgrupo div.tipo{
     border-radius: 5px;
 }
 
-nav.menu-lateral.expand .txt-link{
+nav.menu-lateral:hover .txt-link{
     margin-left: 40px;
     opacity: 1;
 }
