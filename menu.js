@@ -13,24 +13,24 @@ menuItem.forEach((item) =>
 
 // expandindo pelo botao de expandir
 
-var btnExp = document.querySelector('#btnExp');
-var ladoMenu = document.querySelector('.menu-lateral');
-var logo = document.querySelector('.logo-hidden');
+// var btnExp = document.querySelector('#btnExp');
+// var ladoMenu = document.querySelector('.menu-lateral');
+// var logo = document.querySelector('.logo-hidden');
 
-btnExp.addEventListener('click', function(){
-    ladoMenu.classList.toggle('expand');
-    // faz a logo aparecer e desaparecer quando colica para expandir o btnExp
-    logo.classList.toggle('logo-divero');
-    logo.classList.toggle('logo-hidden');
-})
+// btnExp.addEventListener('click', function(){
+//     ladoMenu.classList.toggle('expand');
+//     // faz a logo aparecer e desaparecer quando colica para expandir o btnExp
+//     logo.classList.toggle('logo-divero');
+//     logo.classList.toggle('logo-hidden');
+// })
 
 // testes
 
-var menu = document.querySelector('nav.menu-lateral');
+// var menu = document.querySelector('nav.menu-lateral');
 
-menu.addEventListener('mouseover', function() {
-    console.log('Mouse entrou no menu!');
-    // ladoMenu.classList.toggle('expand');
-    // faz a logo aparecer e desaparecer quando colica para expandir o btnExp
+// menu.addEventListener('mouseover', function() {
+//     console.log('Mouse entrou no menu!');
+//     // ladoMenu.classList.toggle('expand');
+//     // faz a logo aparecer e desaparecer quando colica para expandir o btnExp
    
-});
+// });
