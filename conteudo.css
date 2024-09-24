@@ -44,11 +44,15 @@ section#home .content .container{
 section .content .container-home{
     background-color: brown;
     display: block;
-    
+}
+
+section .content .container-home .subtitulo{
+    position: relative;
+    top: 100px;
 }
 
 section .container-home .introducao{
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 20px;
     max-width: 600px;
     text-align: center;
@@ -56,8 +60,7 @@ section .container-home .introducao{
 }
 
 section .content .container-home .video-home{
-    margin-top: 150px;
-    /* margin-left: 50px; */
+    margin-top: 110px;
     border-radius: 6px;
     width: 600px;
     height: 335px;
